@@ -1,0 +1,44 @@
+html {
+	text-align: center;
+	font-family: 'Major Mono Display', monospace;
+	font-size: 20px;
+}
+
+body {
+	background: url('../images/paper.jpg') center center no-repeat;
+}
+
+#root {
+	margin: auto auto;
+	margin-top: 2%;
+	width: 20%;
+}
+
+button {
+	margin-right: 4;
+	border: 2px solid black;
+	border-radius: 30px;
+	box-shadow: 5px 1px;
+	padding: 15x;
+	font-size: 20px;
+	font-family: fantasy;
+	margin: 6px;
+}
+
+button:active {
+	box-shadow: 5px 1px #666;
+	transform: translateY(2px);
+}
+
+#inc {
+	background-color: #00ff00;
+}
+
+#dec {
+	background-color: #ff0000;
+}
+
+#getfact {
+	background-color: #0066ff;
+	margin-top: 20px;
+}
